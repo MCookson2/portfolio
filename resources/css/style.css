@@ -53,12 +53,39 @@ header {
     color: black;
 }
 
-main {
-    margin: 70px 25% 0 25%;
-}
-
 .biography {
+    margin: 140px 25% 70px 25%;
     margin-top: 140px;
     margin-bottom: 70px;
     font-size: 28px;
+}
+
+.skills {
+    padding-top: 30px;
+    border-top: 1px rgba(27, 26, 26, 0.11) solid;
+    height: 400px;
+    background-color: #f7f7f7;
+    width: 100%;
+    text-align: center;
+}
+
+.skills b {
+    font-size: 28px;
+}
+
+.skill {
+    padding: 50px 75px;
+}
+
+.skill p {
+    font-size: 20px;
+}
+
+.fab, .fas {
+    font-size: 50px;
+}
+
+.skill-images {
+    display: flex;
+    justify-content: center;
 }
