@@ -42,10 +42,10 @@ header {
     padding-left: 0 1rem;
     border-bottom: 1px rgba(27, 26, 26, 0.11) solid;
     background-color: #f7f7f7;
+    align-items: center;
 }
 
 .header-title {
-    margin-top: 20px;
     margin-left: 25%;
     font-size: 22px;
     font-weight: bold;
@@ -88,4 +88,30 @@ header {
 .skill-images {
     display: flex;
     justify-content: center;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    nav a {
+        padding-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 860px) {
+    .header-title {
+        font-size: 18px;
+    }
+
+    nav a {
+        font-size: 12px!important;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .biography {
+        font-size: 22px;
+    }
+    .fab, .fas {
+        font-size: 35px;
+    }
 }
