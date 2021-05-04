@@ -12,26 +12,6 @@ body {
     font-family: 'Roboto';
 }
 
-header {
-    height: 70px;
-    width: 100%;
-    display: flex;
-    position: fixed;
-    z-index: 10;
-    padding-left: 0 1rem;
-    border-bottom: 1px rgba(27, 26, 26, 0.11) solid;
-    background-color: #f7f7f7;
-}
-
-.header-title {
-    margin-top: 18px;
-    margin-left: 25%;
-    font-size: 22px;
-    font-weight: bold;
-    text-decoration: none;
-    color: black;
-}
-
 nav {
     margin-left: auto;
     margin-right: 25%;
@@ -50,4 +30,35 @@ nav a {
 .bold {
     font-weight: bold;
     font-size: 16px;
+}
+
+header {
+    top: 0;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    z-index: 10;
+    padding-left: 0 1rem;
+    border-bottom: 1px rgba(27, 26, 26, 0.11) solid;
+    background-color: #f7f7f7;
+}
+
+.header-title {
+    margin-top: 20px;
+    margin-left: 25%;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    margin: 70px 25% 0 25%;
+}
+
+.biography {
+    margin-top: 140px;
+    margin-bottom: 70px;
+    font-size: 28px;
 }
