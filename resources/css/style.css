@@ -69,8 +69,11 @@ header {
     border-top: 1px rgba(27, 26, 26, 0.11) solid;
     background-color: #304fdb;
     width: 100%;
-    text-align: center;
     color: white;
+}
+
+#skill-header {
+    margin-left: 25%;
 }
 
 .skills b {
@@ -87,19 +90,37 @@ header {
 }
 
 .fab, .fas {
-    font-size: 50px;
+    font-size: 60px;
 }
 
 .skill-images {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    text-align: center;
 }
 
 #add-info {
     font-size: 16px;
 }
 
+.projects {
+    font-size: 28px;
+    padding-top: 30px;
+}
+
+#projects-header {
+    margin-left: 25%;
+}
+
+.project {
+    margin-left: 33%;
+    margin-right: 25%;
+}
+
+#description {
+    font-size: 22px;
+}
 
 @media only screen and (max-width: 1024px) {
     nav a {
