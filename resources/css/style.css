@@ -59,8 +59,6 @@ header {
 
 .biography {
     margin: 140px 25% 70px 25%;
-    margin-top: 140px;
-    margin-bottom: 70px;
     font-size: 28px;
 }
 
@@ -106,7 +104,7 @@ header {
 
 .projects {
     font-size: 28px;
-    padding-top: 30px;
+    padding-top: 40px;
 }
 
 #projects-header {
@@ -129,6 +127,13 @@ header {
     border: 1px solid black;
 }
 
+.proj-desc {
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
 .description {
     font-size: 18px;
 }
@@ -136,6 +141,38 @@ header {
 .title {
     font-size: 24px;
     font-weight: bold;
+}
+
+.cv {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px rgba(27, 26, 26, 0.11) solid;
+    background-color: #304fdb;
+    width: 100%;
+    color: white;
+}
+
+.cv-header {
+    margin-left: 25%;
+    font-size: 28px;
+}
+
+.cv p {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.cv a {
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+}
+
+.contact {
+    margin: 0 25%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 28px;
 }
 
 @media only screen and (max-width: 1024px) {
