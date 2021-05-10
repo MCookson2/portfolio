@@ -9,21 +9,24 @@
     <script src="https://kit.fontawesome.com/513400a9ff.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
+    <header class="backgroundColour selectorClass">
         <a href="index.html" class="header-title">Matthew Cookson</a>
         <nav>
             <a href="index.html" class="bold">Home</a>
             <a href="#projects">Projects</a>
             <a href="#cv">CV</a>
             <a href="#contact">Contact</a>
+            <button id="darkMode">Dark Mode</button>
         </nav>
     </header>
+
     <div class="biography">
         <p>Hi I'm Matt.</p>
         <p>I'm a Developer based in the North-West of England.</p>
         <p>I built this portfolio myself, to showcase some of the work I have done and the skills that I have.</p>
     </div>
-    <div class="skills">
+
+    <div class="skills backgroundColour selectorClass">
         <div class="content">
             <p id="skill-header"><b>Skills</b></p>
             <div class="skill-images">
@@ -48,7 +51,7 @@
             </div>
         </div>
     </div>
-    <div id="projects" class="projects">
+    <div id="projects" class="projects selectorClass">
         <p id="projects-header"><b>Projects</b></p>
         <p class="proj-desc">Please find some of my personal projects below, if you would like to see more of my work please visit my github page: <a href="https://github.com/MCookson2/" target="_blank">https://github.com/MCookson2/</a>.</p>
         <div class="project">
@@ -71,14 +74,16 @@
         </div>
     </div>
 
-    <div id="cv" class="cv">
+    <div id="cv" class="cv backgroundColour selectorClass">
         <p class="cv-header">CV</p>
         <p class="description">Please download my CV by clicking this <span><a href="resources/docs/Matthew_CooksonCV.docx" download="Matt_CooskonCV.docx">link</a></span></p>
     </div>
 
-    <div id="contact" class="contact">
+    <div id="contact" class="contact selectorClass">
         <p class="contact-header">Contact</p>
         <p class="description">Email: Matt.Cookson2@gmail.com</p>
     </div>
+
+    <script src="resources/scripts/script.js"></script>
 </body>
 </html>
