@@ -227,4 +227,14 @@ header {
     #img2 {
         width: 200px;
     }
+    nav {
+        margin-right: 5%;
+    }
+    .header-title {
+        margin-left: 5%;
+    }
+    .project {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 }
