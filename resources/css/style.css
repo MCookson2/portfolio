@@ -187,9 +187,15 @@ header {
     color: white;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1096px) {
     nav a {
         padding-right: 10px;
+    }
+    .project img {
+        width: 500px;
+    }
+    #img2 {
+        width: 350px;
     }
 }
 
@@ -197,9 +203,14 @@ header {
     .header-title {
         font-size: 18px;
     }
-
     nav a {
         font-size: 12px!important;
+    }
+    .project img {
+        width: 450px;
+    }
+    #img2 {
+        width: 300px;
     }
 }
 
@@ -209,5 +220,11 @@ header {
     }
     .fab, .fas {
         font-size: 35px;
+    }
+    .project img {
+        width: 350px;
+    }
+    #img2 {
+        width: 200px;
     }
 }
